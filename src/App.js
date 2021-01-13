@@ -12,7 +12,16 @@ class App extends React.Component {
   
 
   // commit test 
-  
+  // commit test 
+  // commit test 
+  // commit test 
+  // commit test 
+  // commit test 
+  // commit test 
+  // commit test 
+  // commit test 
+
+
   getMovies = async () => {
     const {
       data: {
