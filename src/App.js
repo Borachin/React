@@ -8,6 +8,8 @@ class App extends React.Component {
     isLoading: true,
     movies: []
   };
+  // state의 초기값을 정의 
+  
   getMovies = async () => {
     const {
       data: {
@@ -19,7 +21,8 @@ class App extends React.Component {
   componentDidMount() {
    this.getMovies();
   }
-  render() {
+  render() { 
+    // App.js에서 최종적으로 보여지는 render값 정의
     const { isLoading, movies } = this.state;
     return (
       <section className="container">
