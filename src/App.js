@@ -10,6 +10,9 @@ class App extends React.Component {
   };
   // state의 초기값을 정의 
   
+
+  // commit test 
+  
   getMovies = async () => {
     const {
       data: {
